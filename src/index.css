@@ -9,6 +9,9 @@ body {
   border: 1px solid black;
   box-shadow: 5px 5px 5px black;  
 }
+.btn:hover {
+  background: white;
+}
 .box {
   display: inline-block;       
   border: 1px solid black;
@@ -45,11 +48,12 @@ body {
 }
   
 h1, h2, h3, h4 {
-  color: black;
+  color: rgba(252, 186, 7, 0.787);
   margin: auto;
   text-align: center;
   width: 50%;
   margin-top: 10px;
+  text-shadow: 3px 3px 3px black;
 }
 
 h4 {
